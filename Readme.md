@@ -614,6 +614,8 @@ To use a GGUF model, open the web UI and select GGUF mode.
 - Select the models settings tab and select GGUF diffusion,LLM and VAE models.
 - Enter your prompt and generate image
 
+**Credit:** 1-bit GGUF quantization by [Green-Sky](https://huggingface.co/Green-Sky/bonsai-image-binary-4B-GGUF), based on [prism-ml/bonsai-image-binary-4B-unpacked](https://huggingface.co/prism-ml/bonsai-image-binary-4B-unpacked) (Apache 2.0).
+
 <a id="ai-pc-support"></a>
 
 ## Intel AI PC support - OpenVINO (CPU, GPU, NPU)

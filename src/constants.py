@@ -1,7 +1,7 @@
 from os import environ, cpu_count
 
 cpu_cores = cpu_count()
-cpus = cpu_cores // 2 if cpu_cores else 0
+cpus = cpu_cores if cpu_cores else 0
 APP_VERSION = "v1.0.0 beta 510"
 LCM_DEFAULT_MODEL = "stabilityai/sd-turbo"
 LCM_DEFAULT_MODEL_OPENVINO = "rupeshs/sd-turbo-openvino"
