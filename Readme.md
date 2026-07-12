@@ -427,6 +427,7 @@ We can use ControlNet in LCM-LoRA mode.
 Download ControlNet models from [ControlNet-v1-1](https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/tree/main).Download and place controlnet models in "controlnet_models" folder.
 
 Use the medium size models (723 MB)(For example : <https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/blob/main/control_v11p_sd15_canny_fp16.safetensors>)
+
 ## Architecture
 
 FastSDCPU follows a loosely coupled architecture focusing on maintainability and usability.
@@ -437,6 +438,8 @@ FastSDCPU follows a loosely coupled architecture focusing on maintainability and
 **Interface Flexibility**: A unified underlying engine powers multiple frontend experiences seamlessly, including the Desktop GUI (Qt), the Advanced WebUI, and the Command Line Interface (CLI).
 
 **Extensibility**: The modular setup allows easy integration of new features, such as the MCP server protocol and custom third-party plugins like GIMP.
+
+![FastSDCPU Architecture](https://raw.githubusercontent.com/rupeshs/fastsdcpu/refs/heads/main/docs/images/fastsdcpu-architecture.png)
 
 ## Installation
 
